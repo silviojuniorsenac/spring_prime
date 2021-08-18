@@ -25,7 +25,8 @@ public class ClienteControle implements Serializable {
 
     private static final long serialVersionUID = 1L;
     private int numero = 1;
-
+ 
+    
     @Autowired
     private ClienteRepositorio clienteRepositorio;
     private Cliente cliente;
